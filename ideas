@@ -1,0 +1,6 @@
+all classes and ids could just be valueless attributes of the tag
+
+maybe if I type behavior{} inside the tag, it turns into a link in my editor to a file that describes the behavior of that el
+
+
+each tag could even just enclose a freeform natural expression language that is computed into valid html

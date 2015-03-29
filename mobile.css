@@ -1,0 +1,40 @@
+* {font-family: sans-serif;}
+
+.orange {
+	color: orange;
+}
+
+.big {
+	font-size: 2em;
+}
+
+
+.hide {
+	display: none;
+}
+
+body {margin: 0; padding: 0;}
+
+
+@media screen and (min-width: 40.5em) {
+  body {background: red;}
+
+  }
+
+@media screen and (max-width: 40.5em) {
+  body {background: #AA0000;}
+* {color: white;}
+#AnimationArea {display: none;}
+
+  }
+
+
+.tight {font-size: 0;}
+
+#MenuArea a img{
+	display: block;
+	clear: both;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid red;
+}

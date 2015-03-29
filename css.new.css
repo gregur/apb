@@ -1,0 +1,162 @@
+* {
+	box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  padding: 0px;
+    margin: 0px;
+}
+
+#NewPageTextArea h1 {
+font-family: sans-serif;
+font-weight: bold;
+text-transform: none;
+color: darkblue;
+}
+
+
+#Browser,body {width:100%; 
+	background: rgb(200,200,200);
+margin: 0;
+font-family: sans-serif;
+font-size: 0.9em;}
+
+#Page {
+	margin-left:auto;
+margin-right:auto;
+width:980px;
+ }
+
+#CouponsButton {
+
+background: white;
+font-size: 2em;
+padding: 1em;
+}
+
+#CallMeBar {  background: #EEEEEE;
+ padding: 10px;
+text-align: center;}
+
+#CallMeBar *{
+  font-size: 1em;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+#CallMeBar #PhoneInput {
+  color: silver;
+  padding: 5px;
+}
+
+#CallMeBar button {  padding: 5px;
+	margin-left: 20px;
+}
+
+#CallMeBar #PhoneInput:focus { color: black;}
+
+
+
+
+
+
+ h2 { color: darkred;
+ 	margin: 1em 0 1em 0;
+ }
+
+#Logo {float:left;}
+
+#RedSpace {float:left;}
+
+#PhoneNumberArea {float:left;
+height: 169px; width: 341px;
+background: url('background.jpg'); display: table; font-size: 14px;}
+
+
+#MenuArea,#Bar,#Bar2,#Menu,#TopArea, #FooterArea, #BlackBar, #AnimationArea {width:100%; clear:both;}
+
+#ColumnArea, #MainImageArea { width: 100%; clear: both; padding: 0 3em 3em 3em;}
+
+#MainImageArea {padding: 3em;}
+
+#LeftColumn, #RightColumn, #RightSidebar  { width: 33%; float: left; }
+
+#RightSidebarArea {width: 33%; float: right;}
+
+#TopArea {font-size: 0; }
+
+#MenuArea {width:100%; clear:both; margin: !important 0;
+	padding: !important0; font-size: 0; text-indent: -99999em;}
+ #MenuArea a {
+	margin: !important 0;
+	padding: !important0;
+	display: block;
+	float: left;
+}
+
+#FooterArea {text-align: center;
+padding: 1em;
+font-size: 0.8em;}
+
+#BlackBar {
+	background: black;
+	height: 7px;
+}
+
+#ContentArea {
+		 background: rgb(215,215,215);
+    overflow: hidden;
+	padding: 2em;
+}
+
+#MainTextArea {
+float: left;
+width: 66%;
+padding: 0 3em 3em 3em;
+}
+
+h1 {font-size: 1.5em; text-transform: uppercase; font-weight: lighter; margin-top: 1em;}
+
+
+#SpecialsArea {
+text-align: center;
+padding: 1em;
+}
+
+@import url('http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700');
+@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+
+
+#MaintenanceLinksArea { width: 100%; clear: both; padding-left: 4em;}
+#MaintenanceLinksArea ul{margin: auto;}
+#MaintenanceLinksArea ul li{ float: left; list-style-image:url('RedDot.jpg'); margin: 0em 2em 2em 2em; }
+#MaintenanceLinksArea ul li a {display: block; color: black; font-weight: bold; 
+text-decoration: none;
+ text-transform: uppercase;}
+
+ #ColumnContainer {width: 100%; clear: both;}
+
+ p{margin-top: 3em;}
+
+
+#PhoneNumberAddressHours {display: table-cell; vertical-align: middle; }
+div[itemtype="http://schema.org/LocalBusiness"] {text-align: center; font-family: 'Open Sans Condensed', sans-serif;}
+div[itemprop="name"] { display: none;}
+div[itemprop="email"] { display: none;}
+div[itemprop="telephone"] {color: orange; font-size: 2.5em; font-weight: bold;}
+div[itemprop="url"] { display: none;}
+div[itemprop="paymentAccepted"] { display: none;}
+meta[itemprop="openingHours"] { display: none;}
+div[itemprop="geo"] { display: none;}
+meta[itemprop="latitude"] { display: none;}
+meta[itemprop="longitude"] { display: none;}
+div[itemprop="address"] {color: white; text-transform: uppercase; font-weight: bold; font-size: 1.1em;}
+span[itemprop="streetAddress"] {}
+span[itemprop="addressLocality"] {}
+span[itemprop="addressRegion"] {}
+span[itemprop="postalCode"] { display: none; }
+div#openingHours {padding-top: 0.5em; font-family: 'Open Sans', sans-serif; font-size: 0.6em; color: white; text-transform: uppercase; font-weight:100;}
+
+
+
+article{text-rendering: optimizeLegibility;}
